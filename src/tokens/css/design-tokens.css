@@ -1,0 +1,24 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 11 Dec 2022 19:24:55 GMT
+ */
+
+:root {
+  --global-small: 4px;
+  --global-medium: 8px;
+  --global-brown: #8f0310;
+  --global-red: #ec0000;
+  --global-orange: #ec8a05;
+  --global-yellow: #f9ee04;
+  --global-green: #08c346;
+  --global-dark-green: #017f2b;
+  --global-blue: #3062e5;
+  --global-light-blue: #b8d8ff;
+  --global-pink: #fd6cf6;
+  --global-purple: #ab48f2;
+  --global-black: #000;
+  --global-gray: #979595;
+  --global-white: #fff;
+  --global-large: 16px;
+  --global-x-large: 24px;
+}
