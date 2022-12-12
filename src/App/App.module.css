@@ -1,0 +1,35 @@
+.appHeader {
+  background-color: var(--color-header-background);
+  min-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: var(--spacing-large) 0;
+}
+
+.appTitle {
+  color: var(--color-header-text);
+  font-size: var(--font-size-h1);
+  font-family: var(--font-family-sans-serif);
+}
+
+.logo {
+  height: var(--size-large);
+}
+
+.main {
+  background-color: var(--color-main-section-background);
+  color: var(--color-main-section-text);
+  font-size: var(--font-size-h3);
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-large);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-large);
+  width: 100%;
+}

@@ -1,24 +1,44 @@
 /**
  * Do not edit directly
- * Generated on Sun, 11 Dec 2022 19:24:55 GMT
+ * Generated on Mon, 12 Dec 2022 00:18:54 GMT
  */
 
 :root {
-  --global-small: 4px;
-  --global-medium: 8px;
-  --global-brown: #8f0310;
-  --global-red: #ec0000;
-  --global-orange: #ec8a05;
-  --global-yellow: #f9ee04;
-  --global-green: #08c346;
-  --global-dark-green: #017f2b;
-  --global-blue: #3062e5;
-  --global-light-blue: #b8d8ff;
-  --global-pink: #fd6cf6;
-  --global-purple: #ab48f2;
-  --global-black: #000;
-  --global-gray: #979595;
-  --global-white: #fff;
-  --global-large: 16px;
-  --global-x-large: 24px;
+  --token-set-order-0: global;
+  --size-x-small: 16px;
+  --size-small: 32px;
+  --size-medium: 64px;
+  --size-large: 128px;
+  --size-x-large: 256px;
+  --size-2x-large: 512px;
+  --size-card-width: 512px;
+  --color-brown: #8f0310;
+  --color-red: #ec0000;
+  --color-orange: #ec8a05;
+  --color-yellow: #f9ee04;
+  --color-green: #08c346;
+  --color-dark-green: #017f2b;
+  --color-blue: #3062e5;
+  --color-light-blue: #b8d8ff;
+  --color-pink: #d61291;
+  --color-purple: #ab48f2;
+  --color-black: #000000;
+  --color-gray: #979595;
+  --color-white: #ffffff;
+  --color-card-background: #ffffff;
+  --color-card-text: #000000;
+  --color-header-background: #000000;
+  --color-header-text: #ffffff;
+  --color-main-section-background: #d61291;
+  --color-main-section-text: #ffffff;
+  --font-size-h1: 48px;
+  --font-size-h2: 32px;
+  --font-size-h3: 24px;
+  --font-size-body: 16px;
+  --spacing-x-small: 2px;
+  --spacing-small: 4px;
+  --spacing-medium: 8px;
+  --spacing-large: 16px;
+  --font-family-sans-serif: Tahoma;
+  --font-family-serif: Georgia;
 }
