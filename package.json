@@ -28,7 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "render-tokens": "ts-node ./tokens/scripts/transformTokens.ts --inputFile tokens/raw/global.json --outputPath tokens/render"
+    "render-tokens": "ts-node ./tokens/scripts/styleDictionary.ts --inputFile tokens/style-dictionary/transformed.json --outputPath src/tokens",
+    "figma-sync": "git fetch && git merge origin/figma-sync && yarn transform-to-style-dictionary && yarn render-tokens",
+    "transform-to-style-dictionary": "npx token-transformer tokens/raw/tokens.json tokens/style-dictionary/transformed.json"
   },
   "eslintConfig": {
     "extends": [
