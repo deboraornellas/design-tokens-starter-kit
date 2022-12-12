@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 12 Dec 2022 00:18:54 GMT
+ * Generated on Mon, 12 Dec 2022 14:13:17 GMT
  */
 
 export const tokenSetOrder0 = "global";
@@ -16,9 +16,9 @@ export const colorRed = "#ec0000";
 export const colorOrange = "#ec8a05";
 export const colorYellow = "#f9ee04";
 export const colorGreen = "#08c346";
-export const colorDarkGreen = "#017f2b";
+export const colorDarkGreen = "#084c1f";
 export const colorBlue = "#3062e5";
-export const colorLightBlue = "#b8d8ff";
+export const colorLightBlue = "#d3e5fb";
 export const colorPink = "#d61291";
 export const colorPurple = "#ab48f2";
 export const colorBlack = "#000";

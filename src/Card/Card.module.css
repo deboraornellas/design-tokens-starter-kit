@@ -1,16 +1,17 @@
 .card {
-  background-color: var(--color-card-background);
-  color: var(--color-card-text);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   font-size: var(--font-size-h3);
   padding: var(--spacing-small) var(--spacing-large);
+  background-color: var(--color-card-background);
+  color: var(--color-card-text);
 }
 
 .title {
   font-size: var(--font-size-h3);
+  height: var(--size-medium);
 }
 
 .text {
